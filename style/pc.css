@@ -1,0 +1,86 @@
+/*
+** Jason Brillante "Damdoshi"
+** Hanged Bunny Studio 2014-2020
+**
+** Hanged Bunny Studio . Com
+*/
+
+.head
+{
+    height: 100px;
+}
+
+.foot
+{
+    height: 100px;
+    text-align: left !important;
+}
+
+.foot > a
+{
+    position: relative;
+    border-radius: 50px;
+    top: -27px;
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 5;
+}
+
+.foot > a > div
+{
+    border-radius: 50px;
+    line-height: 50px;
+}
+
+.body
+{
+    height: calc(100% - 200px);
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    overflow: auto;
+}
+
+.logo, .logo_link
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 100%;
+}
+
+.logo
+{
+    height: 95px;
+    background-position: center center;
+}
+
+#menu_links
+{
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    top: 87px;
+    text-align: center;
+    z-index: 5;
+}
+
+#menu_links a
+{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 15px;
+    display: inline-block;
+    width: 20%;
+    height: 25px;
+    line-height: 30px;
+}
+
+.title_entry
+{
+    height: 100px;
+}

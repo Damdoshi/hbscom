@@ -1,0 +1,135 @@
+/*
+** Jason Brillante "Damdoshi"
+** Hanged Bunny Studio 2014-2020
+**
+** Hanged Bunny Studio . Com
+*/
+
+.head
+{
+    height: 200px;
+}
+
+.foot
+{
+    height: 200px;
+    background-size: 100% 100% !important;
+}
+
+.foot > a
+{
+    position: relative;
+    border-radius: 150px;
+    top: 20px;
+    width: 33.33%;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.foot > a > div
+{
+    border-radius: 150px;
+    line-height: 150px;
+    font-size: 40px;
+}
+
+.foot > a > div:active
+{
+    opacity: 1.0;
+    box-shadow:
+	0px 0px 30px white,
+	0px 0px 30px white,
+	0px 0px 30px white,
+	0px 0px 30px white,
+	0px 0px 30px white
+    ;
+}
+
+.body
+{
+    height: calc(100% - 400px);
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 100%;
+    overflow: auto;
+}
+
+.logo, .logo_link
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    background-position: left 10% top 0px;
+}
+
+.logo_link
+{
+    width: calc(100% - 200px);
+}
+
+.logo
+{
+    height: 100%;
+    width: 100%;
+}
+
+#menu_links
+{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 100%;
+    display: none;
+    z-index: 5;
+}
+
+#menu_links a
+{
+    background-color: black;
+    display: block !important;
+    width: 100% !important;
+    height: 150px !important;
+    text-align: center !important;
+    font-size: 100px !important;
+    line-height: 150px !important;
+    border-bottom: 2px solid white;
+}
+
+.menu_icon
+{
+    text-decoration: none;
+    text-align: center;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    height: 150px;
+    width: 150px;
+    line-height: 150px;
+    font-size: 120px;
+    color: black;
+    text-shadow: -2px -2px 0px white,
+		 -2px 2px 0px white,
+		 2px -2px 0px white,
+		 2px 2px 0px white,
+		 2px 0px 0px white,
+		 0px 2px 0px white,
+		 -2px 0px 0px white,
+		 0px -2px 0px white
+    ;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.logo
+{
+
+}
+
+.title_entry
+{
+    height: 200px;
+    top: -50px;
+}

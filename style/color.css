@@ -1,0 +1,153 @@
+/*
+** Jason Brillante "Damdoshi"
+** Hanged Bunny Studio 2014-2020
+**
+** Hanged Bunny Studio . Com
+*/
+
+a
+{
+    text-decoration: none;
+}
+
+@font-face
+{
+    font-family: pixel;
+    src: url("../res/pixellari.ttf") format("truetype");
+}
+
+.white_text
+{
+    font-family: pixel;
+    color: white;
+}
+
+.black_text_lining
+{
+    font-family: pixel;
+    font-weight: bold;
+    color: black;
+    text-shadow: -2px -2px 0px white,
+		 -2px 2px 0px white,
+		 2px -2px 0px white,
+		 2px 2px 0px white,
+		 2px 0px 0px white,
+		 0px 2px 0px white,
+		 -2px 0px 0px white,
+		 0px -2px 0px white
+    ;
+}
+
+.big_entry_text
+{
+    text-align: center;
+    font-size: 75px;
+    line-height: 200px;
+}
+
+body
+{
+    background-color: black;
+}
+
+.head
+{
+    background-image: url("../res/head.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-color: black;
+    border-bottom: 2px solid white;
+}
+
+.logo
+{
+    background-image: url("../res/hbs_inline.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#menu_links a
+{
+    font-size: 150%;
+    line-height: 150%;
+}
+
+#menu_links a:hover
+{
+    opacity: 0.75;
+}
+
+#menu_links a:active
+{
+    opacity: 1.0;
+    box-shadow:
+	0px 0px 5px white,
+	0px 0px 5px white,
+	0px 0px 5px white,
+	0px 0px 5px white,
+	0px 0px 5px white
+    ;
+}
+
+.body
+{
+    background: linear-gradient(to left, rgb(64, 64, 64), black, black, black, black, black, rgb(64, 64, 64));
+}
+
+.foot
+{
+    background-image: url("../res/foot.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 2px solid white;
+}
+
+.foot > a > div:hover
+{
+    opacity: 0.75;
+}
+
+.foot > a > div
+{
+    background-color: black;
+    border: 2px solid white;
+    box-shadow:
+	0px 0px 10px black inset,
+	0px 0px 5px black inset,
+	0px 0px 5px black inset
+    ;
+}
+
+.foot > a > div:active
+{
+    opacity: 1.0;
+    box-shadow:
+	0px 0px 5px white,
+	0px 0px 5px white,
+	0px 0px 5px white,
+	0px 0px 5px white,
+	0px 0px 5px white
+    ;
+}
+
+
+.language_button
+{
+    background-image: url("../res/flags.png");
+    background-size: 100% 100%;
+}
+
+.entry
+{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.illustrated_entry
+{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
